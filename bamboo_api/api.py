@@ -18,7 +18,7 @@ class BambooAPIClient(object):
 
     # Endpoints
     BUILD_SERVICE = '/rest/api/latest/result'
-    PROJECT_SERVICE = 'rest/api/latest/project'
+    PROJECT_SERVICE = '/rest/api/latest/project'
     DEPLOY_SERVICE = '/rest/api/latest/deploy/project'
     ENVIRONMENT_SERVICE = '/rest/api/latest/deploy/environment/{env_id}/results'
     PLAN_SERVICE = '/rest/api/latest/plan'
